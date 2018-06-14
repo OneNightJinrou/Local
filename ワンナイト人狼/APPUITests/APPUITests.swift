@@ -1,14 +1,14 @@
 //
-//  _______UITests.swift
-//  ワンナイト人狼UITests
+//  APPUITests.swift
+//  APPUITests
 //
-//  Created by 西尾俊輝 on 2018/06/11.
-//  Copyright © 2018年 AppAI,inc. All rights reserved.
+//  Created by 赤坂顕世 on 2018/06/04.
+//  Copyright © 2018年 myname. All rights reserved.
 //
 
 import XCTest
 
-class _______UITests: XCTestCase {
+class APPUITests: XCTestCase {
         
     override func setUp() {
         super.setUp()
