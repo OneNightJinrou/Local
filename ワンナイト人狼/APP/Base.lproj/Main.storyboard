@@ -18,38 +18,41 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="TOP PAGE" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ehX-Jj-Siz">
-                                <rect key="frame" x="147" y="215" width="80" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bIr-E2-hV6">
-                                <rect key="frame" x="26" y="614" width="31" height="48"/>
+                                <rect key="frame" x="64" y="599" width="283" height="63"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.99193341080444375" green="0.679232508781901" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                <state key="normal" title="１"/>
+                                <state key="normal" title="Game Start"/>
                                 <connections>
-                                    <segue destination="pyq-xS-da2" kind="show" id="y0v-wW-Ijh"/>
+                                    <segue destination="9ks-Ip-VLV" kind="show" id="ck4-3g-d44"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5uz-Er-g1Z">
-                                <rect key="frame" x="171" y="614" width="31" height="48"/>
+                                <rect key="frame" x="150" y="337" width="94" height="48"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.066928967110000001" blue="0.96998128809999995" alpha="0.24840970849999999" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                <state key="normal" title="２"/>
+                                <state key="normal" title="Tutorial"/>
                                 <connections>
                                     <segue destination="mYh-Mh-55z" kind="popoverPresentation" popoverAnchorView="5uz-Er-g1Z" id="cUM-UQ-gUU">
                                         <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
                                     </segue>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qtm-uh-uIk">
-                                <rect key="frame" x="320" y="614" width="31" height="48"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ワンナイト人狼" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ehX-Jj-Siz">
+                                <rect key="frame" x="40" y="97" width="331" height="124"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="45"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qtm-uh-uIk">
+                                <rect key="frame" x="150" y="393" width="94" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.066928967110000001" blue="0.96998128809999995" alpha="0.24840970849999999" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                <state key="normal" title="３"/>
+                                <state key="normal" title="Setting"/>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -58,7 +61,32 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-126" y="-172"/>
+            <point key="canvasLocation" x="-126.08695652173914" y="-172.0108695652174"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="FFn-cG-QkB">
+            <objects>
+                <viewController id="9ks-Ip-VLV" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3vT-ng-RMG">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VPp-zp-jd2">
+                                <rect key="frame" x="81" y="393" width="62" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="役職選択"/>
+                                <connections>
+                                    <segue destination="pyq-xS-da2" kind="show" id="sST-u4-m4Y"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="PZ4-qr-n8P"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="deY-ec-cdy" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="636" y="-591"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="IQV-aM-AOy">
@@ -118,10 +146,17 @@
                                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </stepper>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="リラーロ.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="so7-JX-at8">
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="rira.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="so7-JX-at8">
                                                     <rect key="frame" x="11" y="10" width="76" height="89"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 </imageView>
+                                                <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="テスト" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="y2B-v5-Hwf">
+                                                    <rect key="frame" x="95" y="11" width="97" height="30"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <nil key="textColor"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <textInputTraits key="textInputTraits"/>
+                                                </textField>
                                             </subviews>
                                             <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </tableViewCellContentView>
@@ -137,7 +172,7 @@
                                                     <rect key="frame" x="271" y="73" width="94" height="29"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 </stepper>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ふぅあいやーーー.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="ef1-Qe-uQj">
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="fire.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="ef1-Qe-uQj">
                                                     <rect key="frame" x="13" y="11" width="76" height="89"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 </imageView>
@@ -161,7 +196,7 @@
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </view>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="パリン.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="zfY-px-lld">
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="parin.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="zfY-px-lld">
                                                     <rect key="frame" x="17" y="17" width="76" height="89"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 </imageView>
@@ -180,7 +215,7 @@
                                                     <rect key="frame" x="261" y="79" width="94" height="29"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 </stepper>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ミュウ.bmp" translatesAutoresizingMaskIntoConstraints="NO" id="uHp-P4-GX6">
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="myu.bmp" translatesAutoresizingMaskIntoConstraints="NO" id="uHp-P4-GX6">
                                                     <rect key="frame" x="20" y="11" width="76" height="89"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 </imageView>
@@ -203,7 +238,7 @@
                                                     <rect key="frame" x="273" y="78" width="94" height="29"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 </stepper>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="リラーロン.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="4FQ-xD-VzY">
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="purin.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="4FQ-xD-VzY">
                                                     <rect key="frame" x="22" y="13" width="76" height="89"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 </imageView>
@@ -271,7 +306,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nWP-hj-CQV" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="xgx-Pk-oEo" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="879.71014492753625" y="-567.39130434782612"/>
+            <point key="canvasLocation" x="1330" y="-748"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Te7-SR-qTR">
@@ -308,10 +343,10 @@
         </scene>
     </scenes>
     <resources>
-        <image name="ふぅあいやーーー.jpg" width="400" height="602"/>
-        <image name="パリン.jpg" width="400" height="602"/>
-        <image name="ミュウ.bmp" width="463" height="340"/>
-        <image name="リラーロ.jpg" width="400" height="602"/>
-        <image name="リラーロン.jpg" width="400" height="602"/>
+        <image name="fire.jpg" width="400" height="602"/>
+        <image name="myu.bmp" width="463" height="340"/>
+        <image name="parin.jpg" width="400" height="602"/>
+        <image name="purin.jpg" width="2480" height="3508"/>
+        <image name="rira.jpg" width="400" height="602"/>
     </resources>
 </document>
