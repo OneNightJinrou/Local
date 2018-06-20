@@ -22,6 +22,7 @@
 		6346584220CEDADE00F5933C /* purin.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6346583E20CEDADE00F5933C /* purin.jpg */; };
 		63D5259920D2AFBD0011F977 /* riraro.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 63D5259820D2AFBC0011F977 /* riraro.jpg */; };
 		63D5259B20D69EF60011F977 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D5259A20D69EF60011F977 /* ViewController2.swift */; };
+		63D5259D20D939220011F977 /* ViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D5259C20D939220011F977 /* ViewController3.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,7 @@
 		6346583E20CEDADE00F5933C /* purin.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = purin.jpg; sourceTree = "<group>"; };
 		63D5259820D2AFBC0011F977 /* riraro.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = riraro.jpg; sourceTree = "<group>"; };
 		63D5259A20D69EF60011F977 /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		63D5259C20D939220011F977 /* ViewController3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController3.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +129,7 @@
 				6346581420C5651C00F5933C /* LaunchScreen.storyboard */,
 				6346581720C5651C00F5933C /* Info.plist */,
 				6346580F20C5651A00F5933C /* APP.xcdatamodeld */,
+				63D5259C20D939220011F977 /* ViewController3.swift */,
 			);
 			path = APP;
 			sourceTree = "<group>";
@@ -286,6 +289,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63D5259D20D939220011F977 /* ViewController3.swift in Sources */,
 				6346581120C5651A00F5933C /* APP.xcdatamodeld in Sources */,
 				63D5259B20D69EF60011F977 /* ViewController2.swift in Sources */,
 				6346580B20C5651A00F5933C /* ViewController.swift in Sources */,
