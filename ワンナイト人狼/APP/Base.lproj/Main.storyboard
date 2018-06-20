@@ -369,12 +369,25 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E5Z-u1-Ek1">
-                                        <rect key="frame" x="97" y="49" width="46" height="30"/>
+                                        <rect key="frame" x="3" y="49" width="235" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="normal" title="Button"/>
+                                        <color key="backgroundColor" red="0.82168739720394735" green="0.77386710976134454" blue="0.81742654399530368" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <state key="normal" title="カメラで撮影"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X4N-VR-1J7">
+                                        <rect key="frame" x="3" y="17" width="235" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="0.82403885690789469" green="0.77608172000242426" blue="0.8197658102243861" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <state key="normal" title="ギャラリーから選択"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7OU-Ps-mlq">
+                                        <rect key="frame" x="3" y="81" width="235" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="0.81857781661184215" green="0.77093849949718452" blue="0.81433308810766447" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <state key="normal" title="キャンセル"/>
                                     </button>
                                 </subviews>
-                                <color key="backgroundColor" red="1" green="0.71708443320000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.57085217927631571" green="0.53762991568419927" blue="0.56789203001759825" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
                         </subviews>
                         <color key="backgroundColor" cocoaTouchSystemColor="lightTextColor"/>
@@ -383,7 +396,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="E2U-0n-5v7" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2364" y="-788"/>
+            <point key="canvasLocation" x="2362.3188405797105" y="-788.31521739130437"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="IQV-aM-AOy">
