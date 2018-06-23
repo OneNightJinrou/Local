@@ -25,6 +25,8 @@
 		63D5259D20D939220011F977 /* ViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D5259C20D939220011F977 /* ViewController3.swift */; };
 		63D525A120DE8A240011F977 /* TestViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D525A020DE8A240011F977 /* TestViewModel.swift */; };
 		8F9BF5E220DE9348003F3F7A /* RoleSetting.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F9BF5E120DE9348003F3F7A /* RoleSetting.storyboard */; };
+		8F9BF5E420DE9D77003F3F7A /* NightStart.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F9BF5E320DE9D77003F3F7A /* NightStart.storyboard */; };
+		8F9BF5E620DE9E61003F3F7A /* NightStart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F9BF5E520DE9E61003F3F7A /* NightStart.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +71,8 @@
 		63D5259C20D939220011F977 /* ViewController3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController3.swift; sourceTree = "<group>"; };
 		63D525A020DE8A240011F977 /* TestViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewModel.swift; sourceTree = "<group>"; };
 		8F9BF5E120DE9348003F3F7A /* RoleSetting.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = RoleSetting.storyboard; sourceTree = "<group>"; };
+		8F9BF5E320DE9D77003F3F7A /* NightStart.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = NightStart.storyboard; sourceTree = "<group>"; };
+		8F9BF5E520DE9E61003F3F7A /* NightStart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NightStart.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +128,8 @@
 				6346580820C5651A00F5933C /* AppDelegate.swift */,
 				6346580A20C5651A00F5933C /* ViewController.swift */,
 				6346580C20C5651A00F5933C /* Main.storyboard */,
+				8F9BF5E320DE9D77003F3F7A /* NightStart.storyboard */,
+				8F9BF5E520DE9E61003F3F7A /* NightStart.swift */,
 				8F9BF5E120DE9348003F3F7A /* RoleSetting.storyboard */,
 				63D5259A20D69EF60011F977 /* ViewController2.swift */,
 				6346581220C5651C00F5933C /* Assets.xcassets */,
@@ -280,6 +286,7 @@
 			files = (
 				6346584020CEDADE00F5933C /* myu.bmp in Resources */,
 				6346583F20CEDADE00F5933C /* rira.jpg in Resources */,
+				8F9BF5E420DE9D77003F3F7A /* NightStart.storyboard in Resources */,
 				6346581620C5651C00F5933C /* LaunchScreen.storyboard in Resources */,
 				6346584220CEDADE00F5933C /* purin.jpg in Resources */,
 				6346583A20CEDACC00F5933C /* parin.jpg in Resources */,
@@ -315,6 +322,7 @@
 				63D525A120DE8A240011F977 /* TestViewModel.swift in Sources */,
 				63D5259D20D939220011F977 /* ViewController3.swift in Sources */,
 				6346581120C5651A00F5933C /* APP.xcdatamodeld in Sources */,
+				8F9BF5E620DE9E61003F3F7A /* NightStart.swift in Sources */,
 				63D5259B20D69EF60011F977 /* ViewController2.swift in Sources */,
 				6346580B20C5651A00F5933C /* ViewController.swift in Sources */,
 				6346580920C5651A00F5933C /* AppDelegate.swift in Sources */,
