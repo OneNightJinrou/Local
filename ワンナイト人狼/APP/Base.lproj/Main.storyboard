@@ -10,10 +10,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--AppTop-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="APP" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="AppTop" id="BYZ-38-t0r" customClass="ViewController" customModule="APP" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -63,10 +63,10 @@
             </objects>
             <point key="canvasLocation" x="-126.08695652173914" y="-172.0108695652174"/>
         </scene>
-        <!--View Controller2-->
+        <!--GameSettings-->
         <scene sceneID="FFn-cG-QkB">
             <objects>
-                <viewController id="9ks-Ip-VLV" customClass="ViewController2" customModule="APP" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="GameSettings" id="9ks-Ip-VLV" customClass="ViewController2" customModule="APP" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="3vT-ng-RMG">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -226,10 +226,10 @@
             </objects>
             <point key="canvasLocation" x="1419" y="-115"/>
         </scene>
-        <!--View Controller-->
+        <!--PlayerSettings-->
         <scene sceneID="uFz-xp-mXB">
             <objects>
-                <viewController id="Dse-n2-7zp" sceneMemberID="viewController">
+                <viewController title="PlayerSettings" id="Dse-n2-7zp" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="jMR-Pa-0j2">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -356,10 +356,10 @@
             </objects>
             <point key="canvasLocation" x="1418.840579710145" y="-803.804347826087"/>
         </scene>
-        <!--popUpView-->
+        <!--PSpopUpView-->
         <scene sceneID="jNF-xs-Udq">
             <objects>
-                <viewController title="popUpView" modalPresentationStyle="overCurrentContext" id="jvZ-da-EDh" customClass="ViewController3" customModule="APP" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="PSpopUpView" modalPresentationStyle="overCurrentContext" id="jvZ-da-EDh" customClass="ViewController3" customModule="APP" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" tag="1" contentMode="scaleToFill" id="K11-za-lDd">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -398,10 +398,10 @@
             </objects>
             <point key="canvasLocation" x="2362.3188405797105" y="-788.31521739130437"/>
         </scene>
-        <!--View Controller-->
+        <!--JobSettings-->
         <scene sceneID="IQV-aM-AOy">
             <objects>
-                <viewController id="pyq-xS-da2" sceneMemberID="viewController">
+                <viewController title="JobSettings" id="pyq-xS-da2" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="xCw-2W-s7h">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
