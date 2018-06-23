@@ -26,11 +26,11 @@
 		63D525A120DE8A240011F977 /* TestViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D525A020DE8A240011F977 /* TestViewModel.swift */; };
 		8F9BF5E220DE9348003F3F7A /* RoleSetting.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F9BF5E120DE9348003F3F7A /* RoleSetting.storyboard */; };
 		8F9BF5E420DE9D77003F3F7A /* NightStart.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F9BF5E320DE9D77003F3F7A /* NightStart.storyboard */; };
-		8F9BF5E620DE9E61003F3F7A /* NightStart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F9BF5E520DE9E61003F3F7A /* NightStart.swift */; };
+		8F9BF5E620DE9E61003F3F7A /* NightStartVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F9BF5E520DE9E61003F3F7A /* NightStartVC.swift */; };
 		8F9BF5E820DE9F5C003F3F7A /* PlayerSetting.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F9BF5E720DE9F5C003F3F7A /* PlayerSetting.storyboard */; };
-		8F9BF5EA20DE9FC0003F3F7A /* PlayerSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F9BF5E920DE9FC0003F3F7A /* PlayerSetting.swift */; };
+		8F9BF5EA20DE9FC0003F3F7A /* PlayerSettingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F9BF5E920DE9FC0003F3F7A /* PlayerSettingVC.swift */; };
 		8F9BF5EC20DEA03A003F3F7A /* GameSetting.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F9BF5EB20DEA03A003F3F7A /* GameSetting.storyboard */; };
-		8F9BF5EE20DEA08E003F3F7A /* GameSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F9BF5ED20DEA08E003F3F7A /* GameSetting.swift */; };
+		8F9BF5EE20DEA08E003F3F7A /* GameSettingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F9BF5ED20DEA08E003F3F7A /* GameSettingVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,11 +76,11 @@
 		63D525A020DE8A240011F977 /* TestViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewModel.swift; sourceTree = "<group>"; };
 		8F9BF5E120DE9348003F3F7A /* RoleSetting.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = RoleSetting.storyboard; sourceTree = "<group>"; };
 		8F9BF5E320DE9D77003F3F7A /* NightStart.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = NightStart.storyboard; sourceTree = "<group>"; };
-		8F9BF5E520DE9E61003F3F7A /* NightStart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NightStart.swift; sourceTree = "<group>"; };
+		8F9BF5E520DE9E61003F3F7A /* NightStartVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NightStartVC.swift; sourceTree = "<group>"; };
 		8F9BF5E720DE9F5C003F3F7A /* PlayerSetting.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PlayerSetting.storyboard; sourceTree = "<group>"; };
-		8F9BF5E920DE9FC0003F3F7A /* PlayerSetting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerSetting.swift; sourceTree = "<group>"; };
+		8F9BF5E920DE9FC0003F3F7A /* PlayerSettingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerSettingVC.swift; sourceTree = "<group>"; };
 		8F9BF5EB20DEA03A003F3F7A /* GameSetting.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = GameSetting.storyboard; sourceTree = "<group>"; };
-		8F9BF5ED20DEA08E003F3F7A /* GameSetting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameSetting.swift; sourceTree = "<group>"; };
+		8F9BF5ED20DEA08E003F3F7A /* GameSettingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameSettingVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,18 +131,12 @@
 		6346580720C5651A00F5933C /* APP */ = {
 			isa = PBXGroup;
 			children = (
+				8F9BF5F020DEA47D003F3F7A /* StoryBoard */,
+				8F9BF5EF20DEA3A2003F3F7A /* ViewController */,
 				63D5259F20DE85E70011F977 /* image */,
 				63D5259E20DE85D10011F977 /* model */,
 				6346580820C5651A00F5933C /* AppDelegate.swift */,
 				6346580A20C5651A00F5933C /* ViewController.swift */,
-				6346580C20C5651A00F5933C /* Main.storyboard */,
-				8F9BF5EB20DEA03A003F3F7A /* GameSetting.storyboard */,
-				8F9BF5ED20DEA08E003F3F7A /* GameSetting.swift */,
-				8F9BF5E720DE9F5C003F3F7A /* PlayerSetting.storyboard */,
-				8F9BF5E920DE9FC0003F3F7A /* PlayerSetting.swift */,
-				8F9BF5E320DE9D77003F3F7A /* NightStart.storyboard */,
-				8F9BF5E520DE9E61003F3F7A /* NightStart.swift */,
-				8F9BF5E120DE9348003F3F7A /* RoleSetting.storyboard */,
 				63D5259A20D69EF60011F977 /* ViewController2.swift */,
 				6346581220C5651C00F5933C /* Assets.xcassets */,
 				6346583D20CEDADD00F5933C /* fire.jpg */,
@@ -190,6 +184,28 @@
 			children = (
 			);
 			path = image;
+			sourceTree = "<group>";
+		};
+		8F9BF5EF20DEA3A2003F3F7A /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				8F9BF5ED20DEA08E003F3F7A /* GameSettingVC.swift */,
+				8F9BF5E920DE9FC0003F3F7A /* PlayerSettingVC.swift */,
+				8F9BF5E520DE9E61003F3F7A /* NightStartVC.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		8F9BF5F020DEA47D003F3F7A /* StoryBoard */ = {
+			isa = PBXGroup;
+			children = (
+				6346580C20C5651A00F5933C /* Main.storyboard */,
+				8F9BF5EB20DEA03A003F3F7A /* GameSetting.storyboard */,
+				8F9BF5E720DE9F5C003F3F7A /* PlayerSetting.storyboard */,
+				8F9BF5E320DE9D77003F3F7A /* NightStart.storyboard */,
+				8F9BF5E120DE9348003F3F7A /* RoleSetting.storyboard */,
+			);
+			path = StoryBoard;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -334,11 +350,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				63D525A120DE8A240011F977 /* TestViewModel.swift in Sources */,
-				8F9BF5EE20DEA08E003F3F7A /* GameSetting.swift in Sources */,
-				8F9BF5EA20DE9FC0003F3F7A /* PlayerSetting.swift in Sources */,
+				8F9BF5EE20DEA08E003F3F7A /* GameSettingVC.swift in Sources */,
+				8F9BF5EA20DE9FC0003F3F7A /* PlayerSettingVC.swift in Sources */,
 				63D5259D20D939220011F977 /* ViewController3.swift in Sources */,
 				6346581120C5651A00F5933C /* APP.xcdatamodeld in Sources */,
-				8F9BF5E620DE9E61003F3F7A /* NightStart.swift in Sources */,
+				8F9BF5E620DE9E61003F3F7A /* NightStartVC.swift in Sources */,
 				63D5259B20D69EF60011F977 /* ViewController2.swift in Sources */,
 				6346580B20C5651A00F5933C /* ViewController.swift in Sources */,
 				6346580920C5651A00F5933C /* AppDelegate.swift in Sources */,
