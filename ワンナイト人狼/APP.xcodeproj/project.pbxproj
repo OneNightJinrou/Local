@@ -24,6 +24,7 @@
 		63D5259B20D69EF60011F977 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D5259A20D69EF60011F977 /* ViewController2.swift */; };
 		63D5259D20D939220011F977 /* ViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D5259C20D939220011F977 /* ViewController3.swift */; };
 		63D525A120DE8A240011F977 /* TestViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D525A020DE8A240011F977 /* TestViewModel.swift */; };
+		8F9BF5E220DE9348003F3F7A /* RoleSetting.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F9BF5E120DE9348003F3F7A /* RoleSetting.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +68,7 @@
 		63D5259A20D69EF60011F977 /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
 		63D5259C20D939220011F977 /* ViewController3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController3.swift; sourceTree = "<group>"; };
 		63D525A020DE8A240011F977 /* TestViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewModel.swift; sourceTree = "<group>"; };
+		8F9BF5E120DE9348003F3F7A /* RoleSetting.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = RoleSetting.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +124,7 @@
 				6346580820C5651A00F5933C /* AppDelegate.swift */,
 				6346580A20C5651A00F5933C /* ViewController.swift */,
 				6346580C20C5651A00F5933C /* Main.storyboard */,
+				8F9BF5E120DE9348003F3F7A /* RoleSetting.storyboard */,
 				63D5259A20D69EF60011F977 /* ViewController2.swift */,
 				6346581220C5651C00F5933C /* Assets.xcassets */,
 				6346583D20CEDADD00F5933C /* fire.jpg */,
@@ -282,6 +285,7 @@
 				6346583A20CEDACC00F5933C /* parin.jpg in Resources */,
 				6346581320C5651C00F5933C /* Assets.xcassets in Resources */,
 				63D5259920D2AFBD0011F977 /* riraro.jpg in Resources */,
+				8F9BF5E220DE9348003F3F7A /* RoleSetting.storyboard in Resources */,
 				6346580E20C5651A00F5933C /* Main.storyboard in Resources */,
 				6346584120CEDADE00F5933C /* fire.jpg in Resources */,
 			);
