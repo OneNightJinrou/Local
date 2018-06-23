@@ -23,6 +23,7 @@
 		63D5259920D2AFBD0011F977 /* riraro.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 63D5259820D2AFBC0011F977 /* riraro.jpg */; };
 		63D5259B20D69EF60011F977 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D5259A20D69EF60011F977 /* ViewController2.swift */; };
 		63D5259D20D939220011F977 /* ViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D5259C20D939220011F977 /* ViewController3.swift */; };
+		63D525A120DE8A240011F977 /* TestViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D525A020DE8A240011F977 /* TestViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +66,7 @@
 		63D5259820D2AFBC0011F977 /* riraro.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = riraro.jpg; sourceTree = "<group>"; };
 		63D5259A20D69EF60011F977 /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
 		63D5259C20D939220011F977 /* ViewController3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController3.swift; sourceTree = "<group>"; };
+		63D525A020DE8A240011F977 /* TestViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +124,12 @@
 				6346580C20C5651A00F5933C /* Main.storyboard */,
 				63D5259A20D69EF60011F977 /* ViewController2.swift */,
 				6346581220C5651C00F5933C /* Assets.xcassets */,
+				6346583D20CEDADD00F5933C /* fire.jpg */,
+				6346583E20CEDADE00F5933C /* purin.jpg */,
+				6346583C20CEDADD00F5933C /* myu.bmp */,
+				6346583B20CEDADD00F5933C /* rira.jpg */,
+				6346583920CEDACC00F5933C /* parin.jpg */,
+				63D5259820D2AFBC0011F977 /* riraro.jpg */,
 				6346581420C5651C00F5933C /* LaunchScreen.storyboard */,
 				6346581720C5651C00F5933C /* Info.plist */,
 				6346580F20C5651A00F5933C /* APP.xcdatamodeld */,
@@ -151,6 +159,7 @@
 		63D5259E20DE85D10011F977 /* model */ = {
 			isa = PBXGroup;
 			children = (
+				63D525A020DE8A240011F977 /* TestViewModel.swift */,
 			);
 			path = model;
 			sourceTree = "<group>";
@@ -158,12 +167,6 @@
 		63D5259F20DE85E70011F977 /* image */ = {
 			isa = PBXGroup;
 			children = (
-				63D5259820D2AFBC0011F977 /* riraro.jpg */,
-				6346583D20CEDADD00F5933C /* fire.jpg */,
-				6346583E20CEDADE00F5933C /* purin.jpg */,
-				6346583C20CEDADD00F5933C /* myu.bmp */,
-				6346583B20CEDADD00F5933C /* rira.jpg */,
-				6346583920CEDACC00F5933C /* parin.jpg */,
 			);
 			path = image;
 			sourceTree = "<group>";
@@ -305,6 +308,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63D525A120DE8A240011F977 /* TestViewModel.swift in Sources */,
 				63D5259D20D939220011F977 /* ViewController3.swift in Sources */,
 				6346581120C5651A00F5933C /* APP.xcdatamodeld in Sources */,
 				63D5259B20D69EF60011F977 /* ViewController2.swift in Sources */,
