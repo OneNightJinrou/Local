@@ -10,9 +10,6 @@ import UIKit
 
 class RoleSettingVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
 
-    let roleImageNames = ["villager.png", "soothsayer.png", "thief.png", "wolf.png"]
-    let roleNames = ["村人", "占い師", "怪盗", "人狼"]
-
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -25,7 +22,7 @@ class RoleSettingVC: UIViewController, UITableViewDelegate, UITableViewDataSourc
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return roleImageNames.count
+        return GlobalVar.shared.roleImageNames.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
@@ -33,8 +30,8 @@ class RoleSettingVC: UIViewController, UITableViewDelegate, UITableViewDataSourc
         let cell = tableView.dequeueReusableCell(withIdentifier: "RoleCell") as! RoleSettingCustomTableViewCell
         
         // セルに値を設定
-        cell.roleImageView.image = UIImage(named: roleImageNames[indexPath.row])
-        cell.roleNameLabel.text = roleNames[indexPath.row]
+        cell.roleImageView.image = UIImage(named: GlobalVar.shared.roleImageNames[indexPath.row])
+        cell.roleNameLabel.text = GlobalVar.shared.roleNames[indexPath.row]
         
         return cell
     }
