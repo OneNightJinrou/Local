@@ -15,12 +15,6 @@
 		6346581620C5651C00F5933C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6346581420C5651C00F5933C /* LaunchScreen.storyboard */; };
 		6346582120C5651C00F5933C /* APPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6346582020C5651C00F5933C /* APPTests.swift */; };
 		6346582C20C5651C00F5933C /* APPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6346582B20C5651C00F5933C /* APPUITests.swift */; };
-		6346583A20CEDACC00F5933C /* parin.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6346583920CEDACC00F5933C /* parin.jpg */; };
-		6346583F20CEDADE00F5933C /* rira.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6346583B20CEDADD00F5933C /* rira.jpg */; };
-		6346584020CEDADE00F5933C /* myu.bmp in Resources */ = {isa = PBXBuildFile; fileRef = 6346583C20CEDADD00F5933C /* myu.bmp */; };
-		6346584120CEDADE00F5933C /* fire.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6346583D20CEDADD00F5933C /* fire.jpg */; };
-		6346584220CEDADE00F5933C /* purin.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6346583E20CEDADE00F5933C /* purin.jpg */; };
-		63D5259920D2AFBD0011F977 /* riraro.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 63D5259820D2AFBC0011F977 /* riraro.jpg */; };
 		63D5259B20D69EF60011F977 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D5259A20D69EF60011F977 /* ViewController2.swift */; };
 		63D5259D20D939220011F977 /* ViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D5259C20D939220011F977 /* ViewController3.swift */; };
 		63D525A120DE8A240011F977 /* TestViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D525A020DE8A240011F977 /* TestViewModel.swift */; };
@@ -70,12 +64,6 @@
 		6346582720C5651C00F5933C /* APPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = APPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6346582B20C5651C00F5933C /* APPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APPUITests.swift; sourceTree = "<group>"; };
 		6346582D20C5651C00F5933C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6346583920CEDACC00F5933C /* parin.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = parin.jpg; sourceTree = "<group>"; };
-		6346583B20CEDADD00F5933C /* rira.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rira.jpg; sourceTree = "<group>"; };
-		6346583C20CEDADD00F5933C /* myu.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = myu.bmp; sourceTree = "<group>"; };
-		6346583D20CEDADD00F5933C /* fire.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fire.jpg; sourceTree = "<group>"; };
-		6346583E20CEDADE00F5933C /* purin.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = purin.jpg; sourceTree = "<group>"; };
-		63D5259820D2AFBC0011F977 /* riraro.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = riraro.jpg; sourceTree = "<group>"; };
 		63D5259A20D69EF60011F977 /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
 		63D5259C20D939220011F977 /* ViewController3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController3.swift; sourceTree = "<group>"; };
 		63D525A020DE8A240011F977 /* TestViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewModel.swift; sourceTree = "<group>"; };
@@ -149,12 +137,6 @@
 				6346580A20C5651A00F5933C /* ViewController.swift */,
 				63D5259A20D69EF60011F977 /* ViewController2.swift */,
 				6346581220C5651C00F5933C /* Assets.xcassets */,
-				6346583D20CEDADD00F5933C /* fire.jpg */,
-				6346583E20CEDADE00F5933C /* purin.jpg */,
-				6346583C20CEDADD00F5933C /* myu.bmp */,
-				6346583B20CEDADD00F5933C /* rira.jpg */,
-				6346583920CEDACC00F5933C /* parin.jpg */,
-				63D5259820D2AFBC0011F977 /* riraro.jpg */,
 				6346581420C5651C00F5933C /* LaunchScreen.storyboard */,
 				6346581720C5651C00F5933C /* Info.plist */,
 				6346580F20C5651A00F5933C /* APP.xcdatamodeld */,
@@ -335,21 +317,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6346584020CEDADE00F5933C /* myu.bmp in Resources */,
-				6346583F20CEDADE00F5933C /* rira.jpg in Resources */,
 				8F9BF5E820DE9F5C003F3F7A /* PlayerSetting.storyboard in Resources */,
 				8F9BF5F920DFE9E2003F3F7A /* thief.png in Resources */,
 				8F9BF5F820DFE9E2003F3F7A /* wolf.png in Resources */,
 				8F9BF5E420DE9D77003F3F7A /* NightStart.storyboard in Resources */,
 				6346581620C5651C00F5933C /* LaunchScreen.storyboard in Resources */,
-				6346584220CEDADE00F5933C /* purin.jpg in Resources */,
-				6346583A20CEDACC00F5933C /* parin.jpg in Resources */,
 				8F9BF5F620DFE9E2003F3F7A /* villager.png in Resources */,
 				6346581320C5651C00F5933C /* Assets.xcassets in Resources */,
-				63D5259920D2AFBD0011F977 /* riraro.jpg in Resources */,
 				8F9BF5E220DE9348003F3F7A /* RoleSetting.storyboard in Resources */,
 				6346580E20C5651A00F5933C /* Main.storyboard in Resources */,
-				6346584120CEDADE00F5933C /* fire.jpg in Resources */,
 				8F9BF5F720DFE9E2003F3F7A /* soothsayer.png in Resources */,
 				8F9BF5EC20DEA03A003F3F7A /* GameSetting.storyboard in Resources */,
 			);
