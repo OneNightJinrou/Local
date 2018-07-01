@@ -91,10 +91,3 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 }
 
-class GlobalVar {
-    private init() {}
-    static let shared = GlobalVar()
-    
-    let roleImageNames = ["villager.png", "soothsayer.png", "thief.png", "wolf.png"]
-    let roleNames = ["村人", "占い師", "怪盗", "人狼"]
-}

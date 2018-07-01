@@ -12,7 +12,7 @@ class RoleSettingVC: UIViewController, UITableViewDelegate, UITableViewDataSourc
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        print(GlobalVar.shared.roleDict["villager"])
         // Do any additional setup after loading the view.
     }
 
