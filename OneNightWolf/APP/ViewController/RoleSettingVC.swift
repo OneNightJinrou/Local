@@ -12,7 +12,7 @@ class RoleSettingVC: UIViewController, UITableViewDelegate, UITableViewDataSourc
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        print(GlobalVar.shared.roleDict["villager"])
+        print(GlobalVar.shared.roleList)
         // Do any additional setup after loading the view.
     }
 
@@ -21,19 +21,26 @@ class RoleSettingVC: UIViewController, UITableViewDelegate, UITableViewDataSourc
         // Dispose of any resources that can be recreated.
     }
     
+    /// セルの個数を指定するデリゲートメソッド（必須）
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return GlobalVar.shared.roleImageNames.count
+        return GlobalVar.shared.roleList.count
     }
     
+    /// セルに値を設定するデータソースメソッド（必須）
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         // セルを取得
         let cell = tableView.dequeueReusableCell(withIdentifier: "RoleCell") as! RoleSettingCustomTableViewCell
         
         // セルに値を設定
-        cell.roleImageView.image = UIImage(named: GlobalVar.shared.roleImageNames[indexPath.row])
-        cell.roleNameLabel.text = GlobalVar.shared.roleNames[indexPath.row]
+        cell.roleImageView.image = UIImage(named: GlobalVar.shared.roleList[indexPath.row].roleImageName)
+        cell.roleNameLabel.text = GlobalVar.shared.roleList[indexPath.row].roleName
         
         return cell
+    }
+    
+    ///セルをクリックされた時のメソッド
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        print("cell：\(indexPath.row) roleName：\(GlobalVar.shared.roleList[indexPath.row].roleName) imageName: \(GlobalVar.shared.roleList[indexPath.row].roleImageName)")
     }
     /*
     // MARK: - Navigation

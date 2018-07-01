@@ -22,15 +22,12 @@ class GlobalVar {
         }
     }
     
-    let roleDict = [
-        "villager": Role(roleName: "村人", roleImageName: "villager.png"),
-        "soothsayer": Role(roleName: "占い師", roleImageName: "soothsayer.png"),
-        "thief": Role(roleName: "怪盗", roleImageName: "thief.png"),
-        "wolf": Role(roleName: "人狼", roleImageName: "wolf.png")
+    let roleList = [
+        Role(roleName: "村人", roleImageName: "villager.png"),
+        Role(roleName: "占い師", roleImageName: "soothsayer.png"),
+        Role(roleName: "怪盗", roleImageName: "thief.png"),
+        Role(roleName: "人狼", roleImageName: "wolf.png")
     ]
-    
-    
-    let roleImageNames = ["villager.png", "soothsayer.png", "thief.png", "wolf.png"]
-    let roleNames = ["村人", "占い師", "怪盗", "人狼"]
+
 }
 
